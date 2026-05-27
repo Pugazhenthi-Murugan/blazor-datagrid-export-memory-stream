@@ -6,12 +6,6 @@ A production-ready sample demonstrating how to export  [Blazor DataGrid](https:/
 
 This repository contains a complete Blazor application that demonstrates efficient data export patterns using the  DataGrid component. Instead of writing directly to disk, the application exports grid data to in-memory streams, enabling flexible post-processing, dynamic content generation, and optimized performance for web-based scenarios.
 
-The sample uses:
-- **Blazor WebAssembly** for the interactive client UI
-- **Blazor Server** for the backend API
-- **DataGrid** for tabular data visualization
-- **Memory stream export** for PDF generation and file handling
-
 ## Features
 
 - **Basic PDF Export**: Export grid data directly as a PDF memory stream
@@ -55,7 +49,6 @@ dotnet run
 
 ## References
 
-- PDF export docs: https://blazor.syncfusion.com/documentation/datagrid/pdf-export#exporting-grid-data-as-stream
-- [ASP.NET Core file streaming & FileStreamResult](
-https://thecodebuzz.com/return-download-file-asp-net-core-webapi/)
+- Export Documentation: https://blazor.syncfusion.com/documentation/datagrid/pdf-export#exporting-grid-data-as-stream
+- Export Feature Demo: https://blazor.syncfusion.com/demos/datagrid/exporting?theme=fluent2
 
